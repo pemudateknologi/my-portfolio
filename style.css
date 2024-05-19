@@ -197,10 +197,14 @@ nav a:hover {
   color: white;
 }
 
+.humberger-menu a {
+  font-size: 30px;
+}
+
 @media (max-width: 500px) {
   .grup-btn button {
-    padding: 7px 15px;
-    font-size: 15px;
+    padding: 7px 10px;
+    font-size: 14px;
   }
 
   .main-text {
@@ -222,5 +226,9 @@ nav a:hover {
 
   nav h1 {
     font-size: 20px;
+  }
+
+  nav a:hover {
+    border-bottom: 1px solid transparent;
   }
 }
